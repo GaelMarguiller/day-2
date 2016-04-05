@@ -1,0 +1,14 @@
+.redBorder {
+  stroke: #ff0000;
+  stroke-width: 10;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: circle 5s linear infinite; }
+
+@keyframes circle {
+  from {
+    stroke-dashoffset: 1000; }
+  to {
+    stroke-dashoffset: 0; } }
+
+/*# sourceMappingURL=style.css.map */
